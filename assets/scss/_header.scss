@@ -1,0 +1,135 @@
+.header {
+  background-color: white;
+  border-bottom: 1px solid $grey;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  //@include media-breakpoint-up(sm) {
+  //  padding-left: $layout-padding;
+  //  padding-right: $layout-padding;
+  //}
+  //@include media-breakpoint-up(md) {
+  //  padding-left: $layout-padding * 2;
+  //  padding-right: $layout-padding * 2;
+  //}
+  //@include media-breakpoint-up(lg) {
+  //  padding-left: $layout-padding * 4;
+  //  padding-right: $layout-padding * 4;
+  //}
+  .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include media-breakpoint-down(xs) {
+      margin: 15px 0;
+      padding: 15px 0;
+    }
+  }
+
+  .logo-title {
+    opacity: 0.7;
+    font-size: 1.4rem;
+    padding-left: 6px;
+  }
+
+
+  .submit {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: #5179fd;
+      padding-right: 10px;
+    }
+
+    .submit-button {
+      padding: 10px;
+      border-radius: 3px;
+      text-decoration: none;
+      color: $primary;
+      &:hover {
+        color: $primary;
+      }
+    }
+    .submit-button-mobile {
+      display: block;
+      @include media-breakpoint-up(sm) {
+        display: none;
+      }
+    }
+    .submit-button-desktop {
+      display: none;
+      @include media-breakpoint-up(sm) {
+        display: block;
+      }
+    }
+    img {
+      opacity: 0.7;
+      width: 20px;
+      height: 20px;
+      @include media-breakpoint-up(sm) {
+        width: 24px;
+        height: 24px;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .main-menu {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+    > ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      > li {
+        flex: 1 0 auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        > a {
+          text-decoration: none;
+          color: $primary;
+          padding: 5px 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          > a {
+            font-weight: $font-weight-bold;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: $font_family_heading;
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+  a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      color: $primary;
+    }
+  }
+  img {
+    position: relative;
+    top: -4px;
+  }
+}

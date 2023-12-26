@@ -1,0 +1,139 @@
+{{ define "title" }}{{ .Title }} Theme - Demo, Review and Download from Jamstack.club with ♥{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:description" content="{{ .Params.description }}"/>
+     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ if $repo }}
+        {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+        {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+        {{ if (fileExists $staticPath) }}
+            <meta property="og:image" content="{{ $filePath | absURL }}">
+        {{ end }}
+    {{ end }}
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@jamstackclub"/>
+    <meta name="twitter:creator" content="@jamstackclub"/>
+{{end}}
+
+{{ define "meta_description" }}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+    <meta name="description" content="{{ .Params.description }}">
+{{ end }}
+
+{{ define "main" }}
+    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ $stackbit := index .Site.Data.stackbit $repoName }}
+
+    <div class="wrapper">
+        <div class="main">
+            <div class="container single-theme">
+                <div class="theme theme-detail" data-name="{{ .Title }}">
+                    <div class="row justify-content-center">
+
+
+                          <!-- sidebar -->
+                          <div class="col-lg-4">
+
+                              <div class="intro-heading">
+                                <h1 class="intro-title">{{ .Title }} </h1>
+                              </div>
+
+                              <div class="intro-description">
+                                <p>{{ .Params.description }}</p>
+
+                                {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                                {{ if $repo }}{{ partial "labels/label-forks.html" (dict "forks" $repo.forks) }}{{ end }}
+                                {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+
+
+                                <!-- theme CTA buttons -->
+                                <div class="d-none d-lg-block">
+                                  {{ partial "theme-cta-buttons.html" . }}
+                                </div>
+
+
+                              </div>
+
+                              <!-- author info -->
+                              <div class="widget">
+                                <h3 class="h4">Author Details:</h3>
+                                {{ partial "author-details.html" . }}
+                              </div>
+
+                              <!-- theme tags -->
+                              <div class="d-none d-lg-block">
+                                {{ partial "theme-tags.html" . }}
+                              </div>
+
+                          </div><!--/ sidebar -->
+
+                        <!-- main content -->
+                        <div class="col-lg-8">
+
+
+                          <!-- image -->
+                          <div class="theme-detail-image mb-4">
+                            {{ if $repo }}
+                                {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                                {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                                {{ if (fileExists $staticPath) }}
+                                    <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"/>
+                                {{ end }}
+                            {{ end }}
+                          </div>
+
+                          <!-- content -->
+                          <div class="content">
+                            {{ .Content }}
+                          </div>
+
+                          <!-- iframe -->
+                          <div class="theme-preview d-none d-md-block">
+                            <h2>Live preview</h2>
+                            <div class="bws-block">
+                              <div class="bws-header">
+                                <div class="bws-actions">
+                                  {{ with .Params.demo }}
+                                  <a target="blank" href="{{.| safeURL}}">Full screen</a>
+                                  {{ end }}
+                                </div>
+                              </div>
+                              <div class="bws-content">
+                                <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
+                                  src="{{ .Params.demo }}/" title="Theme preview"></iframe>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                  </div>
+                </div>
+
+                <!-- theme CTA buttons for mobile -->
+                <div class="d-lg-none">
+                  {{ partial "theme-cta-buttons.html" . }}
+                </div>
+
+                <!-- theme tags for mobile -->
+                <div class="d-lg-none">
+                  {{ partial "theme-tags.html" . }}
+                </div>
+                <!-- newsletter -->
+                {{- partial "newsletter.html" . -}}
+          </div>
+      </div>
+    </div>
+{{ end }}

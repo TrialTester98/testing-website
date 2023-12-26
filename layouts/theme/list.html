@@ -1,0 +1,78 @@
+{{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $themeCount := len $themes}}All Themes ({{ $themeCount }}){{ end }}
+
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
+{{ define "body_id" }}page-all-themes{{ end }}
+
+{{ define "meta_description" }}
+<meta name="description" content="Free and open-source Jamstack themes and templates for Hugo, Eleventy, Jekyll, Gatsby and many more. Find the best Jamstack theme for your next project!"/>
+{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="container">
+            {{ partial "filters.html" (dict "context" . "countAll" true) }}
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+ 
+          <div class="intro">
+            <div class="intro-heading">
+
+                <h1 class="intro-title">Awesome Github README / All Themes</h1>
+                <div class="intro-tagline d-none d-md-block">
+                  <p><strong>A collection of free Jamstack themes for Hugo</strong>, Eleventy, Jekyll, Gatsby and many more.</p>
+                  <p>Filter, sort, preview, and <strong>find the best Jamstack theme for your next project!</strong></p>
+                </div>
+
+                <p class="intro-tagline d-md-none">
+                  A collection of free and open-source Jamstack Themes.
+                </p>
+
+            </div>
+
+            <div class="intro-selected">
+              <span class="intro-count">
+                Currently displaying <span class="count"><span class="count-number">{{ $themeCount }}</span></span> themes.
+              </span>
+              {{ partial "sort-buttons.html" . }}
+            </div>
+        </div>
+
+            <div id="grids-homepage" class="row mt-3">
+                {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
+                    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                    {{ $repo := index .Site.Data.themes $repoName }}
+                    {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                    {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "footer_js" }}
+
+    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+    {{ $filter := resources.Get "js/filter/filter.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+
+    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/themesBundle.js" }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($themesBundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+{{ end }}

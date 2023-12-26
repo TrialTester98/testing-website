@@ -1,0 +1,64 @@
+baseURL = "https://jamstack.club/"
+languageCode = "en-us"
+title = "Jamstack.club"
+theme = "jamstackthemes"
+paginate = 18
+summaryLength = 10
+# enableGitInfo = false
+
+rssLimit = 50
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[params]
+  segment_id = ""
+  description = "Free and open-source themes for Hugo, Eleventy, Jekyll, Gatsby and many more. Find the best free Jamstack themes and templates for your next project! "
+  stackbit_button = false
+  iframe_demo = true
+  assets_url = "https://assets.jamstackthemes.dev"
+  [theme_card]
+    show_archetype_icons = false
+    show_services_icons = false
+
+[taxonomies]
+  ssg = "ssg"
+  cms = "cms"
+  css = "css"
+  archetype = "archetype"
+  services = "services"
+
+[outputFormats]
+  [outputFormats.demo]
+    name = "demo"
+    mediaType = "text/html"
+    isHTML = "true"
+    path = "demo"
+    permalinkable = "true"
+
+[outputs]
+  home = ["HTML","RSS","JSON"]
+  section = ["HTML","RSS"]
+  page = ["HTML", "demo"]
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+
+# Main Menu
+
+
+[[menu.main]]
+	name = "About"
+	url = "/about"
+    weight = 2
+
+[[menu.main]]
+	name = "Contact"
+	url = "/contact"
+    weight = 2
+
+[[menu.main]]
+	name = "Jamstack?"
+	url = "https://jamstack.wtf"
+    weight = 3
