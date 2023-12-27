@@ -11,6 +11,12 @@
     if (buttons) {
         buttons.addEventListener('click', (e) => {
             let action = null;
+            if (e.target.classList.contains("theme-button-demo")) {
+                action = "demo"
+            }
+            if (e.target.classList.contains("theme-button-github")) {
+                action = "github"
+            }
             if (e.target.classList.contains("theme-button-stackbit")) {
                 action = "stackbit"
             }

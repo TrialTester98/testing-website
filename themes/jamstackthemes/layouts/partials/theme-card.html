@@ -14,7 +14,7 @@
     {{ end }}
 
     <div class="theme theme-card" data-name="{{ .theme.Title }}">
-        <a href="{{ .theme.Params.github }}" title="{{ .theme.Params.title }}" class="theme-header">
+        <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}" class="theme-header">
             {{ if .theme.Params.thumbnail }}
                 <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}"
                      alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
@@ -34,7 +34,7 @@
                     {{ end }}
                 {{ else }}
                     {{ if (fileExists $staticPath) }}
-                        <img width="330" height="222" loading="lazy" src="{{ $filePath | relURL }}"
+                        <img width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}"
                              alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x"
                              class="theme-screenshot"/>
                     {{ else }}
@@ -51,9 +51,43 @@
 
         <div class="theme-body">
 
-            <h2><a href="{{.theme.Params.github}}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+            <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+
+            
+            {{ if .repo }}
+            <div class="github-metrics">
+              <div>
+                  <img width="15" height="15" alt="Github Stars" src="{{ "images/ui/star-solid.svg" | relURL }}"/>
+                  <span>{{ .repo.stars }}</span>
+              </div>
+              <div>
+                  <img width="15" height="15" alt="Last Commit" src="{{ "images/ui/history-solid.svg" | relURL }}"/>
+                  <span>{{ dateFormat "Jan 2, 2006" .repo.last_commit }}</span>
+              </div>
+            </div>
+            {{ end }}
+
+            <div class="theme-description">
+                {{ if .theme.Params.description }}
+                    <p class="description">{{ .theme.Params.description | truncate 70 }}</p>
+                {{ else }}
+                    <p class="description">{{ .theme.Summary | truncate 70 }}</p>
+                {{ end }}
+            </div>
 
             <div class="action-buttons action-buttons-card">
+                <a class="action-button action-button-github"
+                   data-action="github"
+                   data-context="card"
+                   data-name="{{ .theme.Title }}"
+                   href="{{ .theme.Params.github }}"
+                   target="_blank" rel="noopener nofollow">Github</a>
+                <a class="action-button action-button-demo"
+                   data-action="demo"
+                   data-context="card"
+                   data-name="{{ .theme.Title }}"
+                   href="/demo{{ .theme.RelPermalink }}"
+                >Demo</a>
                 {{ if .site.Params.stackbit_button }}
                     {{ if .theme.Params.stackbit }}
                         <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit"

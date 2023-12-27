@@ -56,7 +56,7 @@
     }
   }
   .intro-selected {
-    margin-top: 2.8em;
+    margin-top: 1em;
     @include media-breakpoint-up(md) {
       font-size: 14px;
     }
@@ -108,6 +108,7 @@
   .intro-count {
     color: #666 !important;
     font-weight: 400;
+    font-size: larger;
   }
   .count-number {
     font-size: 1.1em;

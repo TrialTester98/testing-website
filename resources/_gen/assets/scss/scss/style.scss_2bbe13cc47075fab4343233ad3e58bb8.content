@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
+h3 {
+  margin-bottom: 1.2em;
+  font-size: 26px; }
+
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -132,7 +136,8 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+  padding-left: 7px; }
 
 svg {
   overflow: hidden;
@@ -297,7 +302,7 @@ html {
       max-width: 960px; } }
   @media (min-width: 1240px) {
     .container {
-      max-width: 1350px; } }
+      max-width: 1600px; } }
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
   padding-right: 15px;
@@ -319,7 +324,7 @@ html {
 
 @media (min-width: 1240px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1350px; } }
+    max-width: 1600px; } }
 
 .row {
   display: flex;
@@ -3987,6 +3992,7 @@ html {
   .page.has-sidebar .wrapper {
     display: flex; }
     .page.has-sidebar .wrapper .main {
+      background: linear-gradient(to right, #d1e6ff, #e7e9ff);
       flex: 1; }
       @media (min-width: 576px) {
         .page.has-sidebar .wrapper .main {
@@ -3996,13 +4002,13 @@ html {
           padding: 30px; } }
     .page.has-sidebar .wrapper .sidebar {
       flex-basis: 110px;
-      background-color: #d1e6ff; }
+      background: #ebf4ff; }
       @media (min-width: 576px) {
         .page.has-sidebar .wrapper .sidebar {
           flex-basis: 140px; } }
       @media (min-width: 992px) {
         .page.has-sidebar .wrapper .sidebar {
-          flex-basis: 260px; } }
+          flex-basis: 300px; } }
   .page .header {
     position: fixed;
     width: 100%;
@@ -4019,9 +4025,8 @@ html {
       justify-content: space-between;
       max-width: none !important; }
   .page .wrapper {
-    padding-top: 60px; }
+    padding-top: 0px; }
     .page .wrapper .main {
-      background-color: #ebf4ff;
       padding-top: 30px;
       padding-bottom: 15px; }
       @media (min-width: 576px) {
@@ -4038,12 +4043,11 @@ html {
           padding-bottom: 60px; } }
     .page .wrapper .sidebar {
       position: sticky;
-      background-color: #d1e6ff;
-      top: 60px;
+      top: 0px;
       z-index: 1;
       width: 120px;
       overflow: auto;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 0px);
       display: flex;
       flex-direction: column;
       background-color: white;
@@ -4507,12 +4511,8 @@ html {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  margin-right: 20px;
-  align-items: center;
-  display: flex; }
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
   .logo a {
-    color: black;
     text-decoration: none;
     display: block; }
     .logo a:hover {
@@ -4578,7 +4578,7 @@ html {
 .filters {
   padding: 30px 0px; }
   .filters .filter {
-    padding: 15px 0px; }
+    padding: 8px 0px; }
     .filters .filter.closed .filter-list {
       display: none !important; }
     .filters .filter.closed .filter-title {
@@ -4759,7 +4759,8 @@ html {
       .filters .filter-list .filter-item.mixitup-control-active .filter-select::after {
         opacity: 1; }
       .filters .filter-list .filter-item .filter-name {
-        color: #2a2a2a; }
+        color: #2a2a2a;
+        font-size: large; }
         .filters .filter-list .filter-item .filter-name a {
           color: black;
           text-decoration: none; }
@@ -4774,6 +4775,7 @@ html {
         .filters .filter-list .filter-item .filter-link:hover {
           text-decoration: underline; }
       .filters .filter-list .filter-item .filter-count {
+        font-size: large;
         color: #666;
         margin: 0 0 0 auto; }
 
@@ -4895,30 +4897,31 @@ html {
   position: relative;
   z-index: 1;
   height: 100%;
-  box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s; }
   .theme-card .theme-title {
     font-weight: 600; }
   .theme-card .theme-header {
-    max-height: 300px;
+    border-bottom: 1px solid #e9e9e9;
+    max-height: 260px;
     overflow: hidden; }
     .theme-card .theme-header img {
       max-width: 100%;
-      width: 90.5%;
-      height: auto;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       object-position: top center;
-      margin: 20px;
-      border-radius: 20px;
-      transition: all 1s ease-in-out; }
+      transition: all 0.7s ease-in-out; }
       .theme-card .theme-header img:hover {
         object-position: bottom center; }
   .theme-card .theme-body {
-    background: white;
+    background: #e9edf8;
     padding: 20px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    padding-top: 15px; }
     .theme-card .theme-body h2 {
       font-size: 20px;
       font-weight: 500;
@@ -4936,16 +4939,15 @@ html {
         padding: 0;
         margin: 0; }
     .theme-card .theme-body .theme-description {
-      margin-bottom: 0px; }
+      margin-bottom: 20px; }
     .theme-card .theme-body .action-buttons {
       margin-top: auto; }
   .theme-card .theme-footer {
-    background: #f5f5f5;
+    background: #e9edf8;
     padding: 8px 13px 8px 13px;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    background-color: white; }
+    flex-wrap: wrap; }
     .theme-card .theme-footer a {
       flex: 0;
       padding: 7px; }
@@ -4987,6 +4989,11 @@ html {
         font-weight: normal; } }
     .theme-card .theme-stars .star-count {
       display: inline-block; }
+
+.theme-card:hover {
+  transform: translateY(-16px);
+  transition: transform 0.3s;
+  transition-timing-function: ease; }
 
 .theme-detail .theme-detail-bar {
   display: flex;
@@ -5200,7 +5207,7 @@ html {
     font-size: 22px; } }
 
 .intro .intro-selected {
-  margin-top: 2.8em; }
+  margin-top: 1em; }
   @media (min-width: 768px) {
     .intro .intro-selected {
       font-size: 14px; } }
@@ -5248,7 +5255,8 @@ html {
 
 .intro .intro-count {
   color: #666 !important;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: larger; }
 
 .intro .count-number {
   font-size: 1.1em;
@@ -5560,10 +5568,10 @@ ul.pagination {
   align-content: center;
   align-items: flex-start;
   border-radius: 3px;
-  margin: 0px -9px 0px -9px; }
+  margin: 0px -9px 10px -9px; }
   .github-metrics div {
     border-right: 1px solid #e9e9e9;
-    padding: 0px 0px;
+    padding: 7px 9px;
     line-height: 1;
     display: flex;
     align-content: center; }

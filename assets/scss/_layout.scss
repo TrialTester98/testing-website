@@ -20,6 +20,7 @@ $layout-padding: 15px;
     .wrapper {
       display: flex;
       .main {
+        background: linear-gradient(to right, #d1e6ff, #e7e9ff);
         flex: 1;
         @include media-breakpoint-up(sm) {
           padding: $layout-padding;
@@ -30,15 +31,15 @@ $layout-padding: 15px;
       }
       .sidebar {
         flex-basis: 110px;
-        background-color: #d1e6ff;
         @include media-breakpoint-up(sm) {
           flex-basis: 140px;
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: 260px;
+          flex-basis: 300px;
         }
         @include media-breakpoint-up(xl) {
         }
+        background: #ebf4ff;
       }
     }
   }
@@ -61,9 +62,8 @@ $layout-padding: 15px;
     }
   }
   .wrapper {
-    padding-top: 60px;
+    padding-top: 0px;
     .main {
-      background-color: #ebf4ff;
       padding-top: $layout-padding * 2;
       padding-bottom: $layout-padding;
       @include media-breakpoint-up(sm) {
@@ -82,12 +82,11 @@ $layout-padding: 15px;
     }
     .sidebar {
       position: sticky;
-      background-color: #d1e6ff;
-      top: 60px;
+      top: 0px;
       z-index: 1;
       width: 120px;
       overflow: auto;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 0px);
       display: flex;
       flex-direction: column;
       background-color: lighten(desaturate(adjust-hue($primary, 7), 76.31), 66);

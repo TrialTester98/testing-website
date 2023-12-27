@@ -7,7 +7,7 @@
 .filters {
   padding: 30px 0px;
   .filter {
-    padding: 15px 0px;
+    padding: 8px 0px;
     &.closed {
       .filter-list {
         display: none !important;
@@ -261,6 +261,7 @@
       }
       .filter-name {
         color: $carbon;
+        font-size: large;
         a {
           color: black;
           text-decoration: none;
@@ -279,6 +280,7 @@
         }
       }
       .filter-count {
+        font-size: large;
         color: #666;
         margin: 0 0 0 auto;
         // @include media-breakpoint-up(md) {

@@ -26,7 +26,6 @@ $layout-padding: 15px;
     .wrapper {
       display: flex;
       .main {
-        color: rgb(30,30,30);
         flex: 1;
         @include media-breakpoint-up(sm) {
           padding: $layout-padding;
@@ -67,7 +66,6 @@ $layout-padding: 15px;
   .wrapper {
     padding-top: 60px;
     .main {
-      color: rgb(30,30,30);
       padding-top: $layout-padding;
       padding-bottom: $layout-padding;
       @include media-breakpoint-up(sm) {

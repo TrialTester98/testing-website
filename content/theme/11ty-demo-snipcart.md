@@ -1,5 +1,7 @@
 ---
 title: Eleventy 2 Snipcart
+github: https://github.com/snipcart/11ty-demo-snipcart
+demo: https://snipcart-11ty-demo.netlify.app/
 author: Snipcart
 ssg:
   - Eleventy
