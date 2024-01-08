@@ -1,4 +1,4 @@
-baseURL = "https://trialtester98.github.io/testing-website/"
+baseURL = "https://trialtester98.github.io"
 languageCode = "en-us"
 title = "Jamstack.club"
 theme = "jamstackthemes"
