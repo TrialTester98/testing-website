@@ -26,14 +26,6 @@ pygmentsUseClasses = true
 [taxonomies]
   archetype = "archetype"
 
-[outputFormats]
-  [outputFormats.demo]
-    name = "demo"
-    mediaType = "text/html"
-    isHTML = "true"
-    path = "demo"
-    permalinkable = "true"
-
 [outputs]
   home = ["HTML","RSS","JSON"]
   section = ["HTML","RSS"]
