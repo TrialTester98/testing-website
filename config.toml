@@ -1,4 +1,4 @@
-baseURL = "https://jamstack.club/"
+baseURL = "https://trialtester98.github.io/testing-website/"
 languageCode = "en-us"
 title = "Jamstack.club"
 theme = "jamstackthemes"
@@ -41,21 +41,3 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
-
-# Main Menu
-
-
-[[menu.main]]
-	name = "About"
-	url = "/about"
-    weight = 2
-
-[[menu.main]]
-	name = "Contact"
-	url = "/contact"
-    weight = 2
-
-[[menu.main]]
-	name = "Jamstack?"
-	url = "https://jamstack.wtf"
-    weight = 3
