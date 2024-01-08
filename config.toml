@@ -4,7 +4,7 @@ title = "Jamstack.club"
 theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10
-relativeURLs=true 
+relativeURLs=false
 # enableGitInfo = false
 
 rssLimit = 50
