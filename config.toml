@@ -29,7 +29,7 @@ pygmentsUseClasses = true
 [outputs]
   home = ["HTML","RSS","JSON"]
   section = ["HTML","RSS"]
-  page = ["HTML", "demo"]
+  page = ["HTML"]
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
