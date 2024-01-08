@@ -24,11 +24,7 @@ pygmentsUseClasses = true
     show_services_icons = false
 
 [taxonomies]
-  ssg = "ssg"
-  cms = "cms"
-  css = "css"
   archetype = "archetype"
-  services = "services"
 
 [outputFormats]
   [outputFormats.demo]
