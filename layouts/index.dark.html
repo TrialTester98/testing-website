@@ -1,0 +1,85 @@
+{{ define "title" }}Jamstack.club - Your friendly Jamstack themes and templates provider - Free and open-source templates for the Jamstack!{{ end }}
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-home has-sidebar{{ end }}
+
+{{ define "meta_description" }}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+    <meta name="description" content="Free and open-source Jamstack themes and templates for Hugo, Eleventy, Jekyll, Gatsby and many more. Find the best Jamstack theme for your next project!"/>
+{{ end }}
+
+{{ define "main" }}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="container">
+              
+              <!-- Sidebar toggler -->
+              <div class="sidebar-main-menu d-block d-lg-none">
+                {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
+              </div>
+              
+              {{ partial "filters.html" (dict "context" . "countAll" false) }}
+              <h3><a href="index.html">Your Link Text</a></h3>
+              
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div class="intro">
+                    <div class="intro-heading">
+                        <h1 class="intro-title">Awesome Github Profile READMEs</h1>,</h1>
+                    </div>
+                    <div class="intro-selected">
+                      <span class="intro-count">
+                        Currently displaying <span class="count"><span class="count-number">{{ $themeCount }}</span></span> themes.
+                      </span>
+                      {{ partial "sort-buttons.html" . }}
+                    </div>
+                </div>
+
+                <div id="grids-homepage" class="row mt-3">
+
+                    {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
+                        {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                        {{ $repo := index .Site.Data.themes $repoName }}
+                        {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                        {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{{ end }}
+
+{{ define "footer_js" }}
+
+    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+    {{ $filter := resources.Get "js/filter/filter.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+    {{ $sidebarToggler := resources.Get "js/sidebar-toggler.js" }}
+
+
+    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler | resources.Concat "js/homeBundle.js" }}
+
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+{{ end }}

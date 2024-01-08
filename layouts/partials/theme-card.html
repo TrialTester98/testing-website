@@ -14,47 +14,79 @@
     {{ end }}
 
     <div class="theme theme-card" data-name="{{ .theme.Title }}">
-        <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}" class="theme-header">
-            {{ if .theme.Params.thumbnail }}
-                <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}"
-                     alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
-            {{ else if .repo }}
-                {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
-                {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
-                {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" .repo.theme_key "-2x.jpg") }}
+        <a href="{{ .theme.Params.github }}" title="{{ .theme.Params.title }}" class="theme-header">
+            {{ if .repo }}
+                {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".webp") }}
+                {{ $suffix := cond (eq .theme.Params.mode "dark") "-dark" "" }}
+                {{ $filePath := printf "%s/%s%s.webp" "images/theme/thumbnail" .repo.theme_key $suffix }}
 
-                {{ if .featured }}
-                    {{ $filePath = (printf "%s/%s%s" "capture" .repo.theme_key ".png") }}
-                    {{ if (fileExists $staticPath) }}
-                        <img loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot"
-                             class="theme-screenshot"/>
-                    {{ else }}
-                        <img src="{{ "images/default-large.png" | relURL }}" loading="lazy"
-                             alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
-                    {{ end }}
+                {{ if (fileExists $staticPath) }}
+                    <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}">
+
+                        class="theme-screenshot"/>
                 {{ else }}
-                    {{ if (fileExists $staticPath) }}
-                        <img width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}"
-                             alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x"
-                             class="theme-screenshot"/>
-                    {{ else }}
-                        <img src="{{ "images/default.png" | relURL }}" loading="lazy"
-                             alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
+                    <img src="{{ "images/default.png" | relURL }}" loading="lazy"
+                            alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
                     {{ end }}
-                {{ end }}
 
             {{ else }}
                 <img src="{{ "images/default.png" | relURL }}" width="280" height="180" loading="lazy"
-                     alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
+                    alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
             {{ end }}
         </a>
 
         <div class="theme-body">
+            <div class="sun-moon-icons" style="display: flex;">
+                <h2><a href="{{ .theme.Params.github }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+                
+                {{ $width := cond (eq .theme.Params.mode "dark") 38 35 }}
+                {{ $height := cond (eq .theme.Params.mode "dark") 38 35 }}
+                {{ $src := cond (eq .theme.Params.mode "dark") "./images/day-sunny.svg" "./images/moon.svg" }}
+                {{ $alt := cond (eq .theme.Params.mode "dark") "Sun Icon" "Moon Icon" }}
 
-            <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+                <img width="{{ $width }}" height="{{ $height }}" id="moon-sun-icon" src="{{ $src }}" alt="{{ $alt }}" class="icon" />
 
+                
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        // Get all elements with the 'moon-sun-icon' class
+                        var moonSunIcons = document.querySelectorAll('#moon-sun-icon');
+                
+                        // Iterate through each moon-sun icon
+                        moonSunIcons.forEach(function (moonSunIcon) {
+                            // Get the theme screenshot element associated with the current icon
+                            var themeScreenshot = moonSunIcon.closest('.theme').querySelector('.theme-screenshot');
+                
+                            // Set the default image source
+                            var defaultImagePath = themeScreenshot.getAttribute('src');
+                            var isMoon = moonSunIcon.getAttribute('alt') === 'Moon Icon';
+                
+                            moonSunIcon.addEventListener('click', function () {
+                                // Toggle between moon and sun states
+                                isMoon = !isMoon;
+                
+                                if (defaultImagePath.endsWith('-dark.webp')) {
+                                    var lightSrc = defaultImagePath.replace('-dark.webp', '.webp');
+                                    themeScreenshot.setAttribute('srcset', isMoon ? lightSrc : defaultImagePath);
+                                } else {
+                                    var darkSrc = defaultImagePath.replace('.webp', '-dark.webp');
+                                    themeScreenshot.setAttribute('srcset', isMoon ? defaultImagePath : darkSrc);
+                                }
+                
+                                // Change the icon based on the state
+                                moonSunIcon.setAttribute('src', isMoon ? './images/moon.svg' : './images/day-sunny.svg');
+                                moonSunIcon.setAttribute('alt', isMoon ? 'Moon Icon' : 'Sun Icon');
+                                moonSunIcon.setAttribute('height', isMoon ? '35' : '38');
+                                moonSunIcon.setAttribute('width', isMoon ? '35' : '38');
+                            });
+                        });
+                    });
+                </script>
+                
+            </div>
         </div>
-
+    
+        
         <div class="theme-footer">
 
             {{ if .theme.Params.archetype }}

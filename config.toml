@@ -1,9 +1,10 @@
-baseURL = "https://jamstack.club/"
+baseURL = "https://trialtester98.github.io/testing-website/"
 languageCode = "en-us"
 title = "Jamstack.club"
 theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10
+relativeURLs=true 
 # enableGitInfo = false
 
 rssLimit = 50

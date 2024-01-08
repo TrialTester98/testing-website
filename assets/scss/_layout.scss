@@ -166,3 +166,11 @@ $layout-padding: 15px;
 .single-theme .row {
     flex-direction: row-reverse;
   }
+
+  .main {
+    // Your existing styles for the light mode
+  
+    &.dark-mode {
+      background: #333 !important; // Set your desired dark mode background color
+  }
+}

@@ -16,7 +16,7 @@
   }
   .theme-header {
     border-bottom: 1px solid $grey;
-    max-height: 260px;
+    max-height: 300px;
     overflow: hidden;
     img {
       max-width: 100%;
@@ -24,7 +24,6 @@
       height: 100%;
       object-fit: cover;
       object-position: top center;
-      transition: all 0.7s ease-in-out;
       &:hover {
         object-position: bottom center;
       }

@@ -26,7 +26,7 @@
               <div class="sidebar-main-menu d-block d-lg-none">
                 {{ range .Site.Menus.main }}<a href="{{.URL}}">{{ .Name }}</a>{{end}}
               </div>
-              
+              {{ partial "toggle.html"}}
               {{ partial "filters.html" (dict "context" . "countAll" false) }}
               
             </div>
@@ -59,6 +59,9 @@
             </div>
         </div>
     </div>
+
+    
+
 
 {{ end }}
 

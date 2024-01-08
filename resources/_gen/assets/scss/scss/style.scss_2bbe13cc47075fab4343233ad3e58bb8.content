@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
   margin-bottom: 1.2em;
-  font-size: 26px; }
+  font-size: 25px; }
 
 p {
   margin-top: 0;
@@ -105,11 +105,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #5179fd;
+  color: #192533;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #053ffc;
+    color: #192533;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -4114,6 +4114,9 @@ html {
 .single-theme .row {
   flex-direction: row-reverse; }
 
+.main.dark-mode {
+  background: #333 !important; }
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Source Sans Pro';
@@ -4776,7 +4779,7 @@ html {
           text-decoration: underline; }
       .filters .filter-list .filter-item .filter-count {
         font-size: large;
-        color: #666;
+        color: #192533;
         margin: 0 0 0 auto; }
 
 .styled-checkbox {
@@ -4903,15 +4906,14 @@ html {
     font-weight: 600; }
   .theme-card .theme-header {
     border-bottom: 1px solid #e9e9e9;
-    max-height: 260px;
+    max-height: 300px;
     overflow: hidden; }
     .theme-card .theme-header img {
       max-width: 100%;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: top center;
-      transition: all 0.7s ease-in-out; }
+      object-position: top center; }
       .theme-card .theme-header img:hover {
         object-position: bottom center; }
   .theme-card .theme-body {
@@ -5178,6 +5180,7 @@ html {
       .intro .intro-icon img {
         width: 46px; } }
 .intro .intro-title {
+  color: #192533;
   display: inline-block;
   vertical-align: middle;
   font-weight: 600;
@@ -5254,9 +5257,9 @@ html {
   margin-top: 1.2em; }
 
 .intro .intro-count {
-  color: #666 !important;
+  color: #192533 !important;
   font-weight: 400;
-  font-size: larger; }
+  font-size: x-large; }
 
 .intro .count-number {
   font-size: 1.1em;
@@ -5445,7 +5448,7 @@ html {
   .sort-buttons .sort-by {
     display: none;
     margin-right: 5px;
-    color: #666; }
+    color: #192533; }
     @media (min-width: 576px) {
       .sort-buttons .sort-by {
         margin-bottom: 0; } }

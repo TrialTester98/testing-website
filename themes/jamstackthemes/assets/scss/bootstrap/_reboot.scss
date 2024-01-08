@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3{
   margin-bottom: 1.2em;
-  font-size: 26px;
+  font-size: 25px;
 }
 // Reset margins on paragraphs
 //
@@ -188,12 +188,12 @@ sup { top: -.5em; }
 //
 
 a {
-  color: $link-color;
+  color: #192533;
   text-decoration: $link-decoration;
   background-color: transparent; // Remove the gray background on active links in IE 10.
 
   @include hover() {
-    color: $link-hover-color;
+    color: #192533;
     text-decoration: $link-hover-decoration;
   }
 }
