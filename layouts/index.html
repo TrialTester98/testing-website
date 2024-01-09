@@ -70,9 +70,10 @@
     {{ $filter := resources.Get "js/filter/filter.js" }}
     {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
     {{ $sidebarToggler := resources.Get "js/sidebar-toggler.js" }}
+    {{ $loadImage := resources.Get "js/load_images.js" }}
 
 
-    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler | resources.Concat "js/homeBundle.js" }}
+    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler $loadImage | resources.Concat "js/homeBundle.js" }}
 
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>

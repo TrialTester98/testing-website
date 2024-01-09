@@ -17,7 +17,7 @@ pygmentsUseClasses = true
   segment_id = ""
   description = "Free and open-source themes for"
   stackbit_button = false
-  iframe_demo = true
+  iframe_demo = false
   assets_url = "https://assets.jamstackthemes.dev"
   [theme_card]
     show_archetype_icons = false

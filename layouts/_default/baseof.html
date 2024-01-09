@@ -82,17 +82,15 @@
 
   {{ $branches := resources.Get "js/branches.js" }}
   {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $loadImage := resources.Get "js/load_images.js" }}
 
-  {{ $scriptsBundle := slice $branches $scripts | resources.Concat "js/scriptsBundle.js" }}
+  {{ $scriptsBundle := slice $branches $scripts $loadImage | resources.Concat "js/scriptsBundle.js" }}
 
   {{ if .Site.IsServer }}
     <script type="text/javascript" src="{{ $scriptsBundle.RelPermalink }}"></script>
   {{ else }}
     <script type="text/javascript" src="{{ ($scriptsBundle | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{/*  Stats with Plausible  */}}
-  <script defer data-domain="jamstack.club" src="https://plausible.io/js/plausible.js"></script>
 
 </body>
 </html>
