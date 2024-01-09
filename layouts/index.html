@@ -48,7 +48,7 @@
 
                 <div id="grids-homepage" class="row mt-3">
 
-                    {{ range ($themes.ByParam "score").ByParam "weight" }}
+                    {{ range (($themes.ByParam "score").Reverse).ByParam "weight" }}
                         {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
                         {{ $repo := index .Site.Data.themes $repoName }}
                         {{ $stackbit := index .Site.Data.stackbit $repoName }}
