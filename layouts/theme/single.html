@@ -16,9 +16,6 @@
             <meta property="og:image" content="{{ $filePath | absURL }}">
         {{ end }}
     {{ end }}
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@jamstackclub"/>
-    <meta name="twitter:creator" content="@jamstackclub"/>
 {{end}}
 
 {{ define "meta_description" }}
@@ -115,8 +112,6 @@
                 <div class="d-lg-none">
                   {{ partial "theme-tags.html" . }}
                 </div>
-                <!-- newsletter -->
-                {{- partial "newsletter.html" . -}}
           </div>
       </div>
     </div>
