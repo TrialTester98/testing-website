@@ -13,13 +13,13 @@
         {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
     {{ end }}
 
-    
+
     <div class="theme theme-card" data-name="{{ .theme.Title }}">
         <a href="{{ .theme.Params.github }}" title="{{ .theme.Params.title }}" class="theme-header">
             {{ if .repo }}
-                {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".webp") }}
+                {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .theme.Params.title ".webp") }}
                 {{ $suffix := cond (eq .theme.Params.mode "dark") "-dark" "" }}
-                {{ $filePath := printf "%s/%s%s.webp" "images/theme/thumbnail" .repo.theme_key $suffix }}
+                {{ $filePath := printf "%s/%s%s.webp" "images/theme/thumbnail" .theme.Params.title $suffix }}
 
                 {{ if (fileExists $staticPath) }}
                     <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}"
