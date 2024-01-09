@@ -1,7 +1,7 @@
 ---
 title: MarikIshtar007
 github: https://github.com/MarikIshtar007
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

@@ -1,7 +1,7 @@
 ---
 title: hill
 github: https://github.com/hill
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

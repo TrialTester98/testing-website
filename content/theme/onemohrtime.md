@@ -1,7 +1,7 @@
 ---
 title: OneMohrTime
 github: https://github.com/OneMohrTime
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

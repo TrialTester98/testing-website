@@ -1,8 +1,10 @@
 ---
 title: danielpontello
 github: https://github.com/danielpontello
-mode: dark
+mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+  - Anime
+  - Innovative
+  - Editor's Choice
 ---

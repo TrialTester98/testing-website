@@ -4,5 +4,7 @@ github: https://github.com/weeebdev
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+  - Anime
+  - Code
+  - Stats and Metrics
 ---

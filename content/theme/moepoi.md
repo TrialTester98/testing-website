@@ -1,7 +1,7 @@
 ---
 title: moepoi
 github: https://github.com/moepoi
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

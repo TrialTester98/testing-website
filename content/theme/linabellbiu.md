@@ -1,7 +1,7 @@
 ---
 title: linabellbiu
 github: https://github.com/linabellbiu
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

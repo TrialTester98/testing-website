@@ -1,6 +1,6 @@
 baseURL = "https://trialtester98.github.io/testing-website/"
 languageCode = "en-us"
-title = "Jamstack.club"
+title = "Awesome Github Profile READMEs"
 theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10

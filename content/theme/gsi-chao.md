@@ -1,7 +1,7 @@
 ---
 title: gsi-chao
 github: https://github.com/gsi-chao
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

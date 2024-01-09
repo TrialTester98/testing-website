@@ -1,7 +1,7 @@
 ---
 title: JoykishanSharma
 github: https://github.com/JoykishanSharma
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

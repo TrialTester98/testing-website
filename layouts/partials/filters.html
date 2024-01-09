@@ -26,7 +26,7 @@
           <li id="filter-{{ .Page.Title | urlize }}">
             <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-item filter-button" data-toggle=".{{ .Page.Title | urlize }}">
             <span class="filter-select">
-            <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
+            <img style="padding-left: 0px;" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
             </span> 
             <span class="filter-name">{{ .Page.Title }}</span>
             <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>

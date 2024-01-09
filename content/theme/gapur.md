@@ -1,7 +1,7 @@
 ---
 title: Gapur
 github: https://github.com/Gapur
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

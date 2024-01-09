@@ -1,7 +1,7 @@
 ---
 title: Ridermansb
 github: https://github.com/Ridermansb
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

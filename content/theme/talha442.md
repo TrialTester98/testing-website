@@ -1,7 +1,7 @@
 ---
 title: talha442
 github: https://github.com/talha442
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

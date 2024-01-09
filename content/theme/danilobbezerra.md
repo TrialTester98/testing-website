@@ -1,7 +1,7 @@
 ---
 title: danilobbezerra
 github: https://github.com/danilobbezerra
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

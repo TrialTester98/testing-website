@@ -1,7 +1,7 @@
 ---
 title: mitp7
 github: https://github.com/mitp7
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

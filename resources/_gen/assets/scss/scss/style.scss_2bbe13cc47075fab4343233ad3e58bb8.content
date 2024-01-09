@@ -4002,13 +4002,16 @@ html {
           padding: 30px; } }
     .page.has-sidebar .wrapper .sidebar {
       flex-basis: 110px;
-      background: #ebf4ff; }
+      background: #ebf4ff;
+      padding: 20px;
+      padding-right: 10px;
+      padding-left: 15px; }
       @media (min-width: 576px) {
         .page.has-sidebar .wrapper .sidebar {
           flex-basis: 140px; } }
       @media (min-width: 992px) {
         .page.has-sidebar .wrapper .sidebar {
-          flex-basis: 300px; } }
+          flex-basis: 310px; } }
   .page .header {
     position: fixed;
     width: 100%;
@@ -4716,9 +4719,9 @@ html {
         left: -12px;
         border-radius: 3px; }
       .filters .filter-list .filter-item .filter-icon {
-        width: 18px;
-        height: 18px;
-        margin-right: 8px; }
+        width: 20px;
+        height: 20px;
+        margin-right: 10px; }
       .filters .filter-list .filter-item .filter-select {
         display: inline-block;
         position: relative;
@@ -5194,7 +5197,7 @@ html {
       font-size: 36px; } }
   @media (min-width: 1240px) {
     .intro .intro-title {
-      font-size: 39px; } }
+      font-size: 37px; } }
 .intro .intro-tagline {
   margin-bottom: 1.5em; }
   .intro .intro-tagline p {

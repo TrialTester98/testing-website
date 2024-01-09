@@ -1,7 +1,7 @@
 ---
 title: chiraag-kakar
 github: https://github.com/chiraag-kakar
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

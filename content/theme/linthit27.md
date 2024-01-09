@@ -4,5 +4,5 @@ github: https://github.com/LinThit27
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+  - Stats and Metrics
 ---

@@ -1,7 +1,7 @@
 ---
 title: wnich
 github: https://github.com/wnich
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

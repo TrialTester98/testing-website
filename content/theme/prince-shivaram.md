@@ -1,7 +1,7 @@
 ---
 title: Prince-Shivaram
 github: https://github.com/Prince-Shivaram
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

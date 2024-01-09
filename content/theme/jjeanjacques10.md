@@ -1,7 +1,7 @@
 ---
 title: jjeanjacques10
 github: https://github.com/jjeanjacques10
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

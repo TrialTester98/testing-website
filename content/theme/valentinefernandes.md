@@ -1,7 +1,7 @@
 ---
 title: ValentineFernandes
 github: https://github.com/ValentineFernandes
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

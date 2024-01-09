@@ -1,7 +1,7 @@
 ---
 title: minoveaz
 github: https://github.com/minoveaz
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

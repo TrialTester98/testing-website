@@ -1,7 +1,7 @@
 ---
 title: gabrlcj
 github: https://github.com/gabrlcj
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

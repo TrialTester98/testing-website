@@ -1,7 +1,7 @@
 ---
 title: aemmadi
 github: https://github.com/aemmadi
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

@@ -1,7 +1,7 @@
 ---
 title: arjunMee
 github: https://github.com/arjunMee
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

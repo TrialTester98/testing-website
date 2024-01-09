@@ -1,7 +1,7 @@
 ---
 title: antoniopantaleo
 github: https://github.com/antoniopantaleo
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

@@ -1,7 +1,7 @@
 ---
 title: jaywcjlove
 github: https://github.com/jaywcjlove
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

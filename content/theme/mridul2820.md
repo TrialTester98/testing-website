@@ -1,7 +1,7 @@
 ---
 title: Mridul2820
 github: https://github.com/Mridul2820
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

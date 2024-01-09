@@ -1,7 +1,7 @@
 ---
 title: RaghavK16
 github: https://github.com/RaghavK16
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

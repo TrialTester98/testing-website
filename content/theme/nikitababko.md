@@ -1,7 +1,7 @@
 ---
 title: nikitababko
 github: https://github.com/nikitababko
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

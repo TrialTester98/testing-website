@@ -1,7 +1,7 @@
 ---
 title: metalim
 github: https://github.com/metalim
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

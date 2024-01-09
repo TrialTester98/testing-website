@@ -1,7 +1,7 @@
 ---
 title: kingrishabdugar
 github: https://github.com/kingrishabdugar
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

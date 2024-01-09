@@ -2,9 +2,11 @@
 title: LunarEclipseCode
 github: https://github.com/LunarEclipseCode
 mode: dark
-score: 99
 transition: 3s
-score: 100
+score: 99.7
 archetype:
   - Little Bit of Everything
+  - Code
+  - Dynamic
+  - Editor's Choice
 ---

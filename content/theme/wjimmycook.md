@@ -1,7 +1,7 @@
 ---
 title: WJimmyCook
 github: https://github.com/WJimmyCook
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

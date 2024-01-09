@@ -1,7 +1,7 @@
 ---
 title: Spiderpig86
 github: https://github.com/Spiderpig86
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

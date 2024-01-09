@@ -35,11 +35,14 @@ $layout-padding: 15px;
           flex-basis: 140px;
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: 300px;
+          flex-basis: 310px;
         }
         @include media-breakpoint-up(xl) {
         }
         background: #ebf4ff;
+        padding:20px;
+        padding-right: 10px;
+        padding-left: 15px;
       }
     }
   }

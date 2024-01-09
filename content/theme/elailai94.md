@@ -1,7 +1,7 @@
 ---
 title: elailai94
 github: https://github.com/elailai94
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

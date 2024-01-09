@@ -1,7 +1,7 @@
 ---
 title: Dineshkarthik
 github: https://github.com/Dineshkarthik
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

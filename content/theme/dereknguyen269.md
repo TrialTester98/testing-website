@@ -1,7 +1,7 @@
 ---
 title: dereknguyen269
 github: https://github.com/dereknguyen269
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

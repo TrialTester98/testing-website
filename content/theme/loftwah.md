@@ -1,7 +1,7 @@
 ---
 title: loftwah
 github: https://github.com/loftwah
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

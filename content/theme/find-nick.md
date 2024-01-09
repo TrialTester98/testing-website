@@ -1,7 +1,7 @@
 ---
 title: Find-NICK
 github: https://github.com/Find-NICK
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

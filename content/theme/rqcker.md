@@ -1,7 +1,7 @@
 ---
 title: Rqcker
 github: https://github.com/Rqcker
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything

@@ -1,7 +1,7 @@
 ---
 title: gautamkrishnar
 github: https://github.com/gautamkrishnar
-mode: dark
+mode: light
 transition: 3s
 archetype:
   - Little Bit of Everything
