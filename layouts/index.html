@@ -72,7 +72,7 @@
     {{ $sidebarToggler := resources.Get "js/sidebar-toggler.js" }}
 
 
-    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler $loadImage | resources.Concat "js/homeBundle.js" }}
+    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle $sidebarToggler| resources.Concat "js/homeBundle.js" }}
 
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
