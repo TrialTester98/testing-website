@@ -17,7 +17,7 @@
     {{ $themes := (where .Site.RegularPages "Type" "theme") }}
     {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 
-    {{ range $themes }}
+    {{ range sort $themes "Lastmod" "desc" }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
