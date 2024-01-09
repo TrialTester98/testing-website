@@ -13,7 +13,6 @@
         {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
     {{ end }}
 
-
     <div class="theme theme-card" data-name="{{ .theme.Title }}">
         <a href="{{ .theme.Params.github }}" title="{{ .theme.Params.title }}" class="theme-header">
             {{ if .repo }}
@@ -22,7 +21,9 @@
                 {{ $filePath := printf "%s/%s%s.webp" "images/theme/thumbnail" .theme.Params.title $suffix }}
 
                 {{ if (fileExists $staticPath) }}
-                    <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}"
+                    <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" 
+                    src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}"
+
                         class="theme-screenshot"/>
                 {{ else }}
                     <img src="{{ "images/default.png" | relURL }}" loading="lazy"
@@ -45,7 +46,6 @@
                 {{ $alt := cond (eq .theme.Params.mode "dark") "Sun Icon" "Moon Icon" }}
 
                 <img width="{{ $width }}" height="{{ $height }}" id="moon-sun-icon" src="{{ $src }}" alt="{{ $alt }}" class="icon" />
-
                 
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {
