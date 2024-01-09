@@ -21,7 +21,8 @@
                 {{ $filePath := printf "%s/%s%s.webp" "images/theme/thumbnail" .repo.theme_key $suffix }}
 
                 {{ if (fileExists $staticPath) }}
-                    <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}">
+                    <img style="padding-left: 0px; transition: all {{ .theme.Params.transition }} ease-in-out;" width="296" height="222" loading="lazy" 
+                    src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePath | relURL }}"
 
                         class="theme-screenshot"/>
                 {{ else }}
@@ -45,7 +46,6 @@
                 {{ $alt := cond (eq .theme.Params.mode "dark") "Sun Icon" "Moon Icon" }}
 
                 <img width="{{ $width }}" height="{{ $height }}" id="moon-sun-icon" src="{{ $src }}" alt="{{ $alt }}" class="icon" />
-
                 
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {
