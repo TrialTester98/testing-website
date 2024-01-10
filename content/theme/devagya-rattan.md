@@ -4,5 +4,6 @@ github: https://github.com/devagya-rattan
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Minimalistic
+- Editor’s Choice
 ---

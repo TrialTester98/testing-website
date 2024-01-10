@@ -5,8 +5,8 @@ mode: dark
 transition: 3s
 score: 99.7
 archetype:
-  - Little Bit of Everything
-  - Code
-  - Dynamic
-  - Editor's Choice
+- Code
+- Little Bit of Everything
+- Dynamic
+- Editor’s Choice
 ---

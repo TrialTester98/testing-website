@@ -4,5 +4,8 @@ github: https://github.com/christian-taillon
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Descriptive
+- Badges | Tags | Icons
+- Stats and Metrics
+- Little Bit of Everything
 ---

@@ -4,5 +4,8 @@ github: https://github.com/SurajPratap10
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Animation
+- Stats and Metrics
+- Badges | Tags | Icons
+- Editor’s choice
 ---

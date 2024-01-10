@@ -4,5 +4,8 @@ github: https://github.com/eryajf
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Github Actions
+- Little Bit of Everything
+- Stats and Metrics
+- Editor’s Choice
 ---

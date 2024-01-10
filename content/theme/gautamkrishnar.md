@@ -4,5 +4,6 @@ github: https://github.com/gautamkrishnar
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Descriptive
+- Little Bit of Everything
 ---

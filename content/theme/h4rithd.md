@@ -4,5 +4,6 @@ github: https://github.com/h4rithd
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Badges | Tags | Icons
+- Minimalistic
 ---

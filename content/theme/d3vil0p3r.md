@@ -4,5 +4,7 @@ github: https://github.com/D3vil0p3r
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Animation
+- Little Bit of Everything
+- Editor’s Choice
 ---

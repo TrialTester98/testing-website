@@ -4,5 +4,9 @@ github: https://github.com/BenjaminHalko
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Game
+- Dynamic
+- Stats and Metrics
+- Github Actions
+- Editor’s Choice
 ---

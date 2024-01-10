@@ -4,5 +4,7 @@ github: https://github.com/montasim
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Descriptive
+- Github Actions
+- Stats and Metrics
 ---

@@ -4,5 +4,6 @@ github: https://github.com/AllJavi
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Dynamic
+- Little Bit of Everything
 ---

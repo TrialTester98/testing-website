@@ -61,7 +61,7 @@
             {{ range .theme.Params.archetype}}
                 {{ with $.theme.Site.GetPage "taxonomyTerm" (printf (urlize .)) }}
                     {{ with .Page.Params.icon }}
-                        <img src="{{ . }}" alt="Icon">
+                        <img src="{{ . }}" width="35" height="28" alt="Icon">
                     {{ end }}
                 {{ end }}
             {{ end }}

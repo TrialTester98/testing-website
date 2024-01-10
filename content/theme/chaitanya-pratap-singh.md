@@ -4,5 +4,8 @@ github: https://github.com/Chaitanya-Pratap-Singh
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Cool Banner
+- Minimalistic
+- Github Actions
+- Editor’s Choice
 ---

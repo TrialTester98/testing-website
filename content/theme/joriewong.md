@@ -4,5 +4,6 @@ github: https://github.com/joriewong
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Cool Banner
+- Little Bit of Everything
 ---

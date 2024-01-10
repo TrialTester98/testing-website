@@ -4,5 +4,6 @@ github: https://github.com/radioactive11
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Little Bit of Everything
+- Badges | Tags | Icons
 ---

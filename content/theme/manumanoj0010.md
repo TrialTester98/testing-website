@@ -4,5 +4,7 @@ github: https://github.com/manumanoj0010
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Github Actions
+- Stats and Metrics
+- Little Bit of Everything
 ---

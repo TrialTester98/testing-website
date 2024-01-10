@@ -4,5 +4,7 @@ github: https://github.com/MahmoudMiehob
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
+- Little Bit of Everything
+- Stats and Metrics
 ---

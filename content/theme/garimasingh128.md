@@ -4,5 +4,5 @@ github: https://github.com/garimasingh128
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Descriptive
 ---

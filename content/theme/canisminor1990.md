@@ -4,5 +4,5 @@ github: https://github.com/canisminor1990
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Little Bit of Everything
 ---

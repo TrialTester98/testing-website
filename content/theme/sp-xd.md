@@ -4,5 +4,8 @@ github: https://github.com/SP-XD
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
+- Badges | Tags | Icons
+- Little Bit of Everything
+- GIF
 ---

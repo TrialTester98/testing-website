@@ -4,5 +4,5 @@ github: https://github.com/adib-yg
 mode: dark
 transition: 3s
 archetype:
-  - Badges/Tags/Icons
+- Badges | Tags | Icons
 ---

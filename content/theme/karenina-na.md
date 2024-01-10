@@ -4,5 +4,7 @@ github: https://github.com/Karenina-na
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Little Bit of Everything
+- Badges | Tags | Icons
+- GIF
 ---

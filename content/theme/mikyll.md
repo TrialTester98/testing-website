@@ -4,5 +4,9 @@ github: https://github.com/mikyll
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
+- Innovative
+- Little Bit of Everything
+- Badges | Tags | Icons
+- Editor’s Choice
 ---

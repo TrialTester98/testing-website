@@ -4,5 +4,5 @@ github: https://github.com/Legendary-Person
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- GIF
 ---

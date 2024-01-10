@@ -4,5 +4,6 @@ github: https://github.com/Aneal07
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- GIF
+- Little Bit of Everything
 ---

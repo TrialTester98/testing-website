@@ -4,5 +4,10 @@ github: https://github.com/RitamChakraborty
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Innovative
+- GIF
+- Cute
+- Editor’s Choice
+- Little Bit of Everything
+- Badges | Tags | Icons
 ---

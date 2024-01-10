@@ -4,5 +4,7 @@ github: https://github.com/anmol098
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
+- Stats and Metrics
+- Little Bit of Everything
 ---

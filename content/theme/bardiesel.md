@@ -4,5 +4,7 @@ github: https://github.com/bardiesel
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Little Bit of Everything
+- Dynamic
+- Cool Banner
 ---

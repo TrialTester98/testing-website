@@ -4,5 +4,7 @@ github: https://github.com/Taucher2003
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Badges | Tags | Icons
+- Stats and Metrics
+- Little Bit of Everything
 ---

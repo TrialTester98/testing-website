@@ -4,5 +4,5 @@ github: https://github.com/N3dal
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
 ---

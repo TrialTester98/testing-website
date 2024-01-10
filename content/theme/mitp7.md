@@ -4,5 +4,7 @@ github: https://github.com/mitp7
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Innovative
+- Minimalistic
+- Project Showcase
 ---

@@ -4,5 +4,7 @@ github: https://github.com/Kshitij07-Pro
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Anime
+- Badges | Tags | Icons
+- Little Bit of Everything
 ---

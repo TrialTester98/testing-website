@@ -4,5 +4,5 @@ github: https://github.com/gsi-chao
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Minimalistic
 ---

@@ -4,5 +4,6 @@ github: https://github.com/talha442
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Code
+- Badges | Tags | Icons
 ---

@@ -4,5 +4,6 @@ github: https://github.com/shravan20
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Editor’s Choice
+- Little Bit of Everything
 ---

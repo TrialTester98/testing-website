@@ -4,5 +4,7 @@ github: https://github.com/oyepriyansh
 mode: light
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Innovative
+- Little Bit of Everything
+- Editor’s Choice
 ---

@@ -4,5 +4,6 @@ github: https://github.com/j0shbl0ck
 mode: dark
 transition: 3s
 archetype:
-  - Little Bit of Everything
+- Anime
+- Cool Banner
 ---
