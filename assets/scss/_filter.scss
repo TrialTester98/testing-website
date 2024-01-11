@@ -151,7 +151,7 @@
       justify-content: flex-start;
       font-size: 14px;
       line-height: 18px;
-      padding: 10px 0;
+      padding: 8px 0;
       border-radius: 5px;
       cursor: pointer;
       width: 100%;
@@ -261,7 +261,7 @@
       }
       .filter-name {
         color: $carbon;
-        font-size: large;
+        font-size: medium;
         a {
           color: black;
           text-decoration: none;
@@ -280,7 +280,7 @@
         }
       }
       .filter-count {
-        font-size: large;
+        font-size: medium;
         color: #192533;
         margin: 0 0 0 auto;
         // @include media-breakpoint-up(md) {

@@ -40,7 +40,7 @@
             <div class="sun-moon-icons" style="display: flex;">
                 <h2><a href="{{ .theme.Params.github }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
                 
-                {{ $width := cond (eq .theme.Params.mode "dark") 38 35 }}
+                {{ $width := cond (eq .theme.Params.mode "dark") 32 29 }}
                 {{ $height := $width }}
                 {{ $src := "./images/day-sunny.svg" }}
                 {{ $alt := "Sun Icon" }}
@@ -61,7 +61,7 @@
             {{ range .theme.Params.archetype}}
                 {{ with $.theme.Site.GetPage "taxonomyTerm" (printf (urlize .)) }}
                     {{ with .Page.Params.icon }}
-                        <img src="{{ . }}" width="35" height="28" alt="Icon">
+                        <img src="{{ . }}" width="30" height="24" alt="Icon">
                     {{ end }}
                 {{ end }}
             {{ end }}

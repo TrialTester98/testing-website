@@ -16,7 +16,6 @@
   }
   .theme-header {
     border-bottom: 1px solid $grey;
-    max-height: 300px;
     overflow: hidden;
     img {
       max-width: 100%;
@@ -37,13 +36,13 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
-    padding-top: 15px;
+    padding-top: 0.6em;
     h2 {
       font-size: 20px;
       font-weight: 500;
       margin-bottom: 10px;
       @include media-breakpoint-up(xl) {
-        font-size: 26px;
+        font-size: 22px;
       }
     }
     p {
@@ -132,4 +131,9 @@
   transform: translateY(-16px);
   transition: transform 0.3s;
   transition-timing-function: ease;
+}
+
+
+.theme-header {
+  max-height: 16vw;
 }

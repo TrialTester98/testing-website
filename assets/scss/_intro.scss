@@ -30,7 +30,7 @@
     vertical-align: middle;
     font-weight: 600;
     font-size: 24px;
-    margin: 20px auto;
+    margin: 8px auto;
     @include media-breakpoint-up(sm) {
       font-size: 28px;
     }
@@ -38,7 +38,7 @@
       font-size: 36px;
     }
     @include media-breakpoint-up(xl) {
-      font-size: 37px;
+      font-size: 32px;
     }
   }
   .intro-tagline {
@@ -109,7 +109,7 @@
   .intro-count {
     color: #192533 !important;
     font-weight: 400;
-    font-size: x-large;
+    font-size: larger;
   }
   .count-number {
     font-size: 1.1em;

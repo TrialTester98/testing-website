@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             moonSunIcon.src = isMoon ? './images/moon.svg' : './images/day-sunny.svg';
             altText = isMoon ? 'Moon Icon' : 'Sun Icon';
-            iconSize = isMoon ? '35' : '38';
+            iconSize = isMoon ? '29' : '32';
 
             moonSunIcon.setAttribute('alt', altText);
             moonSunIcon.setAttribute('height', iconSize);
