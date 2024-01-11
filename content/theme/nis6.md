@@ -2,7 +2,8 @@
 title: nis6
 github: https://github.com/nis6
 mode: dark
-transition: 3s
+transition: 1s
+score: 67.2
 archetype:
 - Minimalistic
 ---

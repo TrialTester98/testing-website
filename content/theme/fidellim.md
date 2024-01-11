@@ -2,7 +2,8 @@
 title: fidellim
 github: https://github.com/fidellim
 mode: dark
-transition: 3s
+transition: 1s
+score: 99
 archetype:
 - Badges | Tags | Icons
 - Little Bit of Everything

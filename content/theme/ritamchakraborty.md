@@ -2,7 +2,8 @@
 title: RitamChakraborty
 github: https://github.com/RitamChakraborty
 mode: dark
-transition: 3s
+transition: 1s
+score: 97.3
 archetype:
 - Innovative
 - GIF

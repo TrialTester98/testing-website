@@ -2,7 +2,8 @@
 title: YasPHP
 github: https://github.com/YasPHP
 mode: dark
-transition: 3s
+transition: 1s
+score: 65.5
 archetype:
 - Minimalistic
 ---

@@ -2,7 +2,8 @@
 title: montasim
 github: https://github.com/montasim
 mode: dark
-transition: 3s
+transition: 1s
+score: 86.9
 archetype:
 - Descriptive
 - Github Actions

@@ -2,7 +2,8 @@
 title: VladimirBrejcha
 github: https://github.com/VladimirBrejcha
 mode: dark
-transition: 3s
+transition: 1s
+score: 74.3
 archetype:
 - Descriptive
 ---

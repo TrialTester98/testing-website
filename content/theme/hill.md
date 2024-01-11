@@ -2,7 +2,8 @@
 title: hill
 github: https://github.com/hill
 mode: light
-transition: 3s
+transition: 1s
+score: 97.45
 archetype:
 - Innovative
 ---

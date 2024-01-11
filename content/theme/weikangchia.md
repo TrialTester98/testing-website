@@ -2,7 +2,8 @@
 title: weikangchia
 github: https://github.com/weikangchia
 mode: light
-transition: 3s
+transition: 1s
+score: 66.0
 archetype:
 - Github Actions
 - Little Bit of Everything

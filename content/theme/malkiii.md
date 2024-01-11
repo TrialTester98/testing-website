@@ -2,7 +2,8 @@
 title: malkiii
 github: https://github.com/malkiii
 mode: dark
-transition: 3s
+transition: 1s
+score: 85.6
 archetype:
 - Game
 ---

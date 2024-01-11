@@ -2,7 +2,8 @@
 title: SimonLeclere
 github: https://github.com/SimonLeclere
 mode: dark
-transition: 3s
+transition: 1s
+score: 60
 archetype:
 - Game
 ---

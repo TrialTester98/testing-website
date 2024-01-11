@@ -2,7 +2,8 @@
 title: lorencerri
 github: https://github.com/lorencerri
 mode: dark
-transition: 3s
+transition: 1s
+score: 84.5
 archetype:
 - Game
 ---

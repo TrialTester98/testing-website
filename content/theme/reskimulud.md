@@ -2,7 +2,8 @@
 title: reskimulud
 github: https://github.com/reskimulud
 mode: dark
-transition: 3s
+transition: 1s
+score: 60
 archetype:
 - Cool Banner
 - Stats and Metrics

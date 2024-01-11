@@ -2,7 +2,8 @@
 title: LucioMSP
 github: https://github.com/LucioMSP
 mode: dark
-transition: 3s
+transition: 1s
+score: 68.7
 archetype:
 - Minimalistic
 ---

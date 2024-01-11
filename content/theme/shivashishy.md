@@ -2,7 +2,8 @@
 title: shivashishy
 github: https://github.com/shivashishy
 mode: dark
-transition: 3s
+transition: 1s
+score: 74.2
 archetype:
 - Badges | Tags | Icons
 ---

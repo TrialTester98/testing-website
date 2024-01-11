@@ -2,8 +2,8 @@
 title: 0-vortex
 github: https://github.com/0-vortex
 mode: light
-score: 95
-transition: 3s
+score: 99.6
+transition: 1s
 archetype:
 - Innovative
 - GIF

@@ -2,7 +2,8 @@
 title: Safouene1
 github: https://github.com/Safouene1
 mode: dark
-transition: 3s
+transition: 1s
+score: 67.7
 archetype:
 - Minimalistic
 ---

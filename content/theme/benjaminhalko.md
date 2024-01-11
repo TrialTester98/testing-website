@@ -2,7 +2,8 @@
 title: BenjaminHalko
 github: https://github.com/BenjaminHalko
 mode: dark
-transition: 3s
+transition: 1s
+score: 96.9
 archetype:
 - Game
 - Dynamic

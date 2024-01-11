@@ -2,7 +2,8 @@
 title: metaory
 github: https://github.com/metaory
 mode: dark
-transition: 3s
+transition: 1s
+score: 84.4
 archetype:
 - Innovative
 - Github Actions

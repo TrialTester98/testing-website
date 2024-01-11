@@ -2,7 +2,8 @@
 title: wyattowalsh
 github: https://github.com/wyattowalsh
 mode: light
-transition: 3s
+transition: 1s
+score: 84.0
 archetype:
 - Badges | Tags | Icons
 - Stats and Metrics

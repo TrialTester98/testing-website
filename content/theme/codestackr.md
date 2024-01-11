@@ -2,7 +2,8 @@
 title: codestackr
 github: https://github.com/codestackr
 mode: dark
-transition: 3s
+transition: 1s
+score: 97.5
 archetype:
 - Github Actions
 - Dynamic

@@ -2,7 +2,8 @@
 title: amandewatnitrr
 github: https://github.com/amandewatnitrr
 mode: light
-transition: 3s
+transition: 1s
+score: 74.6
 archetype:
 - Descriptive
 - Badges | Tags | Icons

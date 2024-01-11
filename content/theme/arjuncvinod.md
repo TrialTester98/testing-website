@@ -2,7 +2,8 @@
 title: arjuncvinod
 github: https://github.com/arjuncvinod
 mode: dark
-transition: 3s
+transition: 1s
+score: 93.2
 archetype:
 - Cool Banner
 - Badges | Tags | Icons

@@ -2,7 +2,8 @@
 title: mikyll
 github: https://github.com/mikyll
 mode: light
-transition: 3s
+transition: 1s
+score: 89.9
 archetype:
 - Code
 - Innovative

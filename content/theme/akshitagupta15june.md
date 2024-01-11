@@ -2,7 +2,8 @@
 title: akshitagupta15june
 github: https://github.com/akshitagupta15june
 mode: dark
-transition: 3s
+transition: 1s
+score: 79.0
 archetype:
 - GIF
 ---

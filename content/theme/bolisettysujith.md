@@ -2,7 +2,8 @@
 title: BolisettySujith
 github: https://github.com/BolisettySujith
 mode: dark
-transition: 3s
+transition: 1s
+score: 73.1
 archetype:
 - Cool Banner
 - Project Showcase

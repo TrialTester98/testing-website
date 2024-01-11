@@ -2,7 +2,8 @@
 title: masum035
 github: https://github.com/masum035
 mode: dark
-transition: 3s
+transition: 1s
+score: 77.6
 archetype:
 - GIF
 - Descriptive

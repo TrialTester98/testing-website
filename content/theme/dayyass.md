@@ -2,7 +2,8 @@
 title: dayyass
 github: https://github.com/dayyass
 mode: light
-transition: 3s
+transition: 1s
+score: 78.1
 archetype:
 - Descriptive
 ---

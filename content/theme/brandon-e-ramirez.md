@@ -2,7 +2,8 @@
 title: Brandon-E-Ramirez
 github: https://github.com/Brandon-E-Ramirez
 mode: dark
-transition: 3s
+transition: 1s
+score: 90.8
 archetype:
 - Fancy Fonts
 - Code

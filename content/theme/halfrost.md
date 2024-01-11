@@ -2,7 +2,8 @@
 title: halfrost
 github: https://github.com/halfrost
 mode: light
-transition: 3s
+transition: 1s
+score: 79.7
 archetype:
 - Descriptive
 ---

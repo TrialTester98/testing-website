@@ -2,7 +2,8 @@
 title: Niefee
 github: https://github.com/Niefee
 mode: dark
-transition: 3s
+transition: 1s
+score: 69.2
 archetype:
 - Minimalistic
 ---

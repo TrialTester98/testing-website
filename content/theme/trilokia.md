@@ -2,7 +2,8 @@
 title: Trilokia
 github: https://github.com/Trilokia
 mode: dark
-transition: 3s
+transition: 1s
+score: 67.2
 archetype:
 - Minimalistic
 ---

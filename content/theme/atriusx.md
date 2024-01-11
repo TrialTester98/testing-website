@@ -2,7 +2,8 @@
 title: AtriusX
 github: https://github.com/AtriusX
 mode: dark
-transition: 3s
+transition: 1s
+score: 93.1
 archetype:
 - Badges | Tags | Icons
 ---

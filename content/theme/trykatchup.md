@@ -2,7 +2,8 @@
 title: TryKatChup
 github: https://github.com/TryKatChup
 mode: dark
-transition: 3s
+transition: 1s
+score: 87.7
 archetype:
 - Code
 - Minimalistic

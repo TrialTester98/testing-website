@@ -2,7 +2,8 @@
 title: mccnick
 github: https://github.com/mccnick
 mode: dark
-transition: 3s
+transition: 1s
+score: 87.3
 archetype:
 - Animation
 - Code

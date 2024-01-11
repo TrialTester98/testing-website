@@ -2,7 +2,8 @@
 title: krishnapriya-n
 github: https://github.com/krishnapriya-n
 mode: dark
-transition: 3s
+transition: 1s
+score: 89.6
 archetype:
 - Anime
 ---

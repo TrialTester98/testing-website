@@ -2,7 +2,8 @@
 title: laohanme
 github: https://github.com/laohanme
 mode: dark
-transition: 3s
+transition: 1s
+score: 70.7
 archetype:
 - Code
 ---

@@ -2,7 +2,8 @@
 title: lowlighter
 github: https://github.com/lowlighter
 mode: dark
-transition: 3s
+transition: 1s
+score: 98.9
 archetype:
 - Stats and Metrics
 - Innovative

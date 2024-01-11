@@ -2,7 +2,8 @@
 title: braydonwang
 github: https://github.com/braydonwang
 mode: dark
-transition: 3s
+transition: 1s
+score: 90.4
 archetype:
 - Descriptive
 - Animation

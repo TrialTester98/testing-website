@@ -2,7 +2,8 @@
 title: ShaanCoding
 github: https://github.com/ShaanCoding
 mode: light
-transition: 3s
+transition: 1s
+score: 67.0
 archetype:
 - Minimalistic
 ---

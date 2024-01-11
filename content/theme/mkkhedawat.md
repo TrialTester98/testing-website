@@ -2,7 +2,8 @@
 title: mkkhedawat
 github: https://github.com/mkkhedawat
 mode: dark
-transition: 3s
+transition: 1s
+score: 69.5
 archetype:
 - Code
 - Minimalistic

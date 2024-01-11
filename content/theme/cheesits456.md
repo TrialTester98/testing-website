@@ -2,7 +2,8 @@
 title: cheesits456
 github: https://github.com/cheesits456
 mode: dark
-transition: 3s
+transition: 1s
+score: 92.8
 archetype:
 - Descriptive
 ---

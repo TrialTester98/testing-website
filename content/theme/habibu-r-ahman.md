@@ -2,7 +2,8 @@
 title: Habibu-R-ahman
 github: https://github.com/Habibu-R-ahman
 mode: light
-transition: 3s
+transition: 1s
+score: 73.1
 archetype:
 - Little Bit of Everything
 ---

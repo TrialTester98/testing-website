@@ -2,7 +2,8 @@
 title: Rameshchandrapola
 github: https://github.com/Rameshchandrapola
 mode: dark
-transition: 3s
+transition: 1s
+score: 72.7
 archetype:
 - Little Bit of Everything
 ---

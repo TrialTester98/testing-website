@@ -2,7 +2,8 @@
 title: varunKT001
 github: https://github.com/varunKT001
 mode: light
-transition: 3s
+transition: 1s
+score: 60
 archetype:
 - Github Actions
 - Badges | Tags | Icons

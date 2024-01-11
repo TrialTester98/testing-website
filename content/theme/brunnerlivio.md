@@ -2,7 +2,8 @@
 title: BrunnerLivio
 github: https://github.com/BrunnerLivio
 mode: dark
-transition: 3s
+transition: 1s
+score: 86.2
 archetype:
 - Animation
 - Github Actions

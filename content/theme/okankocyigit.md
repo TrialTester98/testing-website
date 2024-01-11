@@ -2,7 +2,8 @@
 title: okankocyigit
 github: https://github.com/okankocyigit
 mode: light
-transition: 3s
+transition: 1s
+score: 82.9
 archetype:
 - GIF
 ---

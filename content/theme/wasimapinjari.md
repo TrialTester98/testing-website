@@ -2,7 +2,8 @@
 title: wasimapinjari
 github: https://github.com/wasimapinjari
 mode: dark
-transition: 3s
+transition: 1s
+score: 75.2
 archetype:
 - Badges | Tags | Icons
 ---

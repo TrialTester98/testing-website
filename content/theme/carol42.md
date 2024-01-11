@@ -2,7 +2,8 @@
 title: Carol42
 github: https://github.com/Carol42
 mode: dark
-transition: 3s
+transition: 1s
+score: 85.1
 archetype:
 - Cool Banner
 - Github Actions

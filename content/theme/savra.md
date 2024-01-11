@@ -2,7 +2,8 @@
 title: savra
 github: https://github.com/savra
 mode: dark
-transition: 3s
+transition: 1s
+score: 79.3
 archetype:
 - Little Bit of Everything
 ---

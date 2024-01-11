@@ -2,7 +2,8 @@
 title: terrytangyuan
 github: https://github.com/terrytangyuan
 mode: dark
-transition: 3s
+transition: 1s
+score: 67.9
 archetype:
 - Minimalistic
 ---

@@ -2,7 +2,8 @@
 title: Amchuz
 github: https://github.com/Amchuz
 mode: light
-transition: 3s
+transition: 1s
+score: 77.3
 archetype:
 - GIF
 ---

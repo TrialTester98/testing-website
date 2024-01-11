@@ -2,7 +2,8 @@
 title: mobile-sergey
 github: https://github.com/mobile-sergey
 mode: light
-transition: 3s
+transition: 1s
+score: 97
 archetype:
 - Innovative
 - Github Actions

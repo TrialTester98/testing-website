@@ -2,7 +2,8 @@
 title: aryan-upa
 github: https://github.com/aryan-upa
 mode: dark
-transition: 3s
+transition: 1s
+score: 88.6
 archetype:
 - Cool Banner
 - Little Bit of Everything

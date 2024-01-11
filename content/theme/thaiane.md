@@ -2,7 +2,8 @@
 title: Thaiane
 github: https://github.com/Thaiane
 mode: dark
-transition: 3s
+transition: 1s
+score: 68.4
 archetype:
 - Code
 - Minimalistic

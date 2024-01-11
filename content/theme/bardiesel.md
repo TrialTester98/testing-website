@@ -2,7 +2,8 @@
 title: bardiesel
 github: https://github.com/bardiesel
 mode: dark
-transition: 3s
+transition: 1s
+score: 60
 archetype:
 - Little Bit of Everything
 - Dynamic

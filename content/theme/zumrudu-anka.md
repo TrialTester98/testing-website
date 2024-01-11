@@ -2,7 +2,8 @@
 title: zumrudu-anka
 github: https://github.com/zumrudu-anka
 mode: dark
-transition: 3s
+transition: 1s
+score: 78.7
 archetype:
 - Little Bit of Everything
 ---

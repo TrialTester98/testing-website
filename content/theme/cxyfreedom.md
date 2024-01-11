@@ -2,7 +2,8 @@
 title: cxyfreedom
 github: https://github.com/cxyfreedom
 mode: dark
-transition: 3s
+transition: 1s
+score: 82.3
 archetype:
 - Stats and Metrics
 ---

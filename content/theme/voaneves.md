@@ -2,7 +2,8 @@
 title: voaneves
 github: https://github.com/voaneves
 mode: dark
-transition: 3s
+transition: 1s
+score: 89
 archetype:
 - Code
 - Badges | Tags | Icons

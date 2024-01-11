@@ -2,7 +2,8 @@
 title: nurofsun
 github: https://github.com/nurofsun
 mode: light
-transition: 3s
+transition: 1s
+score: 69.2
 archetype:
 - Code
 - Minimalistic

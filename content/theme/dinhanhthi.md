@@ -2,7 +2,8 @@
 title: dinhanhthi
 github: https://github.com/dinhanhthi
 mode: light
-transition: 3s
+transition: 1s
+score: 77.9
 archetype:
 - Badges | Tags | Icons
 ---

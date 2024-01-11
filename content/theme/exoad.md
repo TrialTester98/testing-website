@@ -2,7 +2,8 @@
 title: exoad
 github: https://github.com/exoad
 mode: dark
-transition: 3s
+score: 99.7
+transition: 1s
 archetype:
 - Innovative
 - Little Bit of Everything

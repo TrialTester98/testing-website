@@ -2,7 +2,8 @@
 title: DHANOLA
 github: https://github.com/DHANOLA
 mode: dark
-transition: 3s
+transition: 1s
+score: 81.6
 archetype:
 - GIF
 ---

@@ -2,7 +2,8 @@
 title: Sagar-Sharma-7
 github: https://github.com/Sagar-Sharma-7
 mode: dark
-transition: 3s
+transition: 1s
+score: 94.3
 archetype:
 - Code
 - Little Bit of Everything

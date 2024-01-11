@@ -2,7 +2,8 @@
 title: sudiptog81
 github: https://github.com/sudiptog81
 mode: dark
-transition: 3s
+transition: 1s
+score: 93.4
 archetype:
 - Code
 - Dynamic

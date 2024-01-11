@@ -1,0 +1,10 @@
+---
+title: DhanushNehru
+github: https://github.com/DhanushNehru
+mode: dark
+transition: 1s
+score: 88.4
+archetype:
+- Github Actions
+- Little Bit of Everything
+---

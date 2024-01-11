@@ -2,7 +2,8 @@
 title: acervenky
 github: https://github.com/acervenky
 mode: dark
-transition: 3s
+transition: 1s
+score: 92.3
 archetype:
 - Cool Banner
 - Innovative

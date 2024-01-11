@@ -2,7 +2,8 @@
 title: pasquale95
 github: https://github.com/pasquale95
 mode: dark
-transition: 3s
+transition: 1s
+score: 88.0
 archetype:
 - Cool Banner
 - Dynamic

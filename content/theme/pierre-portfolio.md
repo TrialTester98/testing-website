@@ -2,7 +2,8 @@
 title: Pierre-Portfolio
 github: https://github.com/Pierre-Portfolio
 mode: dark
-transition: 3s
+transition: 1s
+score: 75.1
 archetype:
 - Badges | Tags | Icons
 ---

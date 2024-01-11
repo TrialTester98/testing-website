@@ -4005,8 +4005,7 @@ html {
       background: #ebf4ff;
       padding: 20px;
       padding-right: 10px;
-      padding-left: 15px;
-      overflow: hidden; }
+      padding-left: 15px; }
       @media (min-width: 576px) {
         .page.has-sidebar .wrapper .sidebar {
           flex-basis: 140px; } }

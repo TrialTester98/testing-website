@@ -2,7 +2,8 @@
 title: MaxMohammadi
 github: https://github.com/MaxMohammadi
 mode: dark
-transition: 3s
+transition: 1s
+score: 95.5
 archetype:
 - Code
 - Innovative

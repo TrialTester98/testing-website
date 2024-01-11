@@ -2,7 +2,8 @@
 title: XanderRubio
 github: https://github.com/XanderRubio
 mode: dark
-transition: 3s
+transition: 1s
+score: 92.9
 archetype:
 - Animation
 - Github Actions

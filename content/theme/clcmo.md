@@ -2,7 +2,8 @@
 title: clcmo
 github: https://github.com/clcmo
 mode: dark
-transition: 3s
+transition: 1s
+score: 60
 archetype:
 - Descriptive
 - Github Actions

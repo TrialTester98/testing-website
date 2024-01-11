@@ -2,7 +2,8 @@
 title: SophieNguyen113
 github: https://github.com/SophieNguyen113
 mode: dark
-transition: 3s
+transition: 1s
+score: 91.4
 archetype:
 - GIF
 ---
