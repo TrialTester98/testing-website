@@ -133,7 +133,33 @@
   transition-timing-function: ease;
 }
 
-
 .theme-header {
-  max-height: 16vw;
+  max-height: 33vh;
+
+  @media (min-height: 1200px) {
+    /* 1440p resolution */
+    max-height: 20vh;
+  }
+
+  @media (min-width: 1000px) and (min-height: 1400) {
+    /* 1440p resolution */
+    max-height: 21vh;
+  }
+
+  @media (min-width: 1000px)  and (min-height: 1000px){
+    /* 1440p resolution */
+    max-height: 24vh;
+  }
+
+  @media (min-width: 1800px)  and (min-height: 1000px){
+    /* 1440p resolution */
+    max-height: 31.5vh;
+  }
+
+  @media (min-width: 2400px)  and (min-height: 1300px){
+    /* 1440p resolution */
+    max-height: 31vh;
+  }
+
 }
+

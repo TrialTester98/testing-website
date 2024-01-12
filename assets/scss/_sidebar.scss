@@ -1,7 +1,7 @@
 
 
 .sidebar-toggler {
-  border: 1px solid #f6f6f6;
+  border: 0px solid #f6f6f6;
   border-radius: 8px;
   display: none;
   .sidebar-toggle-icon {
@@ -22,15 +22,6 @@
       stroke-width: 5.5;
       stroke-linecap: round;
     }
-    &.active {
-      transform: rotate(45deg);
-      .top {
-        stroke-dashoffset: -68px;
-      }
-      .bottom {
-        stroke-dashoffset: -68px;
-      }
-    }
   }
 }
 
@@ -47,7 +38,7 @@
   pointer-events: none;
   transition: 0.25s;
   &.show {
-    opacity: .4;
+    opacity: 0;
     visibility: visible;
     pointer-events: all;
   }
@@ -60,18 +51,7 @@
 }
 
 .sidebar-main-menu {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  padding: 25px 0px;
-  a {
-    color: black;
-    display: block;
-    padding: 8px 0;
-    &:hover {
-      color: $primary;
-
-    }
-  }
+  border-top: 0px solid #ddd;
 }
 
 

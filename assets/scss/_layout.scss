@@ -3,6 +3,7 @@ $layout-padding: 10px;
 .page {
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(to right, #d1e6ff, #e7e9ff);
   flex-direction: column;
   min-height: 100vh;
   &.has-sidebar {
@@ -35,9 +36,13 @@ $layout-padding: 10px;
           flex-basis: 140px;
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: 280px;
-        }
-        @include media-breakpoint-up(xl) {
+          flex-basis: 260px;
+        
+          @media (min-width: 2300px) {
+            & {
+              flex-basis: 310px;
+            }
+          }
         }
         background: #ebf4ff;
         padding:20px;
