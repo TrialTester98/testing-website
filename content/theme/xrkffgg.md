@@ -3,7 +3,7 @@ title: xrkffgg
 github: https://github.com/xrkffgg
 mode: dark
 transition: 1s
-score: 66.5
+score: 40.1
 archetype:
 - Minimalistic
 ---

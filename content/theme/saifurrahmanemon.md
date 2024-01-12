@@ -3,7 +3,7 @@ title: Saifurrahmanemon
 github: https://github.com/Saifurrahmanemon
 mode: light
 transition: 1s
-score: 76.2
+score: 52.9
 archetype:
 - Code
 ---

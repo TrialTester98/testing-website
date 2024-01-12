@@ -3,7 +3,7 @@ title: lukasvarkalis
 github: https://github.com/lukasvarkalis
 mode: dark
 transition: 1s
-score: 72.6
+score: 63.9
 archetype:
 - Descriptive
 ---

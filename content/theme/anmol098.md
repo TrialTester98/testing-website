@@ -3,7 +3,7 @@ title: anmol098
 github: https://github.com/anmol098
 mode: dark
 transition: 1s
-score: 81.8
+score: 78.3
 archetype:
 - Code
 - Stats and Metrics

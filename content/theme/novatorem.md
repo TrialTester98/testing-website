@@ -3,7 +3,7 @@ title: novatorem
 github: https://github.com/novatorem
 mode: dark
 transition: 1s
-score: 65.1
+score: 58.3
 archetype:
 - Minimalistic
 ---

@@ -3,7 +3,7 @@ title: MR-Addict
 github: https://github.com/MR-Addict
 mode: dark
 transition: 1s
-score: 60
+score: 67.4
 archetype:
 - Innovative
 ---

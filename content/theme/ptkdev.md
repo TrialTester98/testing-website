@@ -3,7 +3,7 @@ title: ptkdev
 github: https://github.com/ptkdev
 mode: dark
 transition: 1s
-score: 71.3
+score: 82.4
 archetype:
 - Project Showcase
 ---

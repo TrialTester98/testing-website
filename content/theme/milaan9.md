@@ -3,7 +3,7 @@ title: milaan9
 github: https://github.com/milaan9
 mode: dark
 transition: 1s
-score: 72.6
+score: 76.5
 archetype:
 - Badges | Tags | Icons
 ---

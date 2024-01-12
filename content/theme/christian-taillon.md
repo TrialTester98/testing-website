@@ -3,7 +3,7 @@ title: christian-taillon
 github: https://github.com/christian-taillon
 mode: dark
 transition: 1s
-score: 82.6
+score: 67.25
 archetype:
 - Descriptive
 - Badges | Tags | Icons

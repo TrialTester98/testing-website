@@ -3,7 +3,7 @@ title: Ahmad-Sawalqeh
 github: https://github.com/Ahmad-Sawalqeh
 mode: dark
 transition: 1s
-score: 74.7
+score: 76.6
 archetype:
 - Badges | Tags | Icons
 ---

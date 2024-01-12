@@ -3,7 +3,7 @@ title: MartinHeinz
 github: https://github.com/MartinHeinz
 mode: dark
 transition: 1s
-score: 75.1
+score: 47.7
 archetype:
 - Little Bit of Everything
 ---

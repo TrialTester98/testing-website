@@ -3,7 +3,7 @@ title: hussainweb
 github: https://github.com/hussainweb
 mode: dark
 transition: 1s
-score: 68.3
+score: 78.6
 archetype:
 - Minimalistic
 ---

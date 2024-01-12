@@ -3,7 +3,7 @@ title: CyrisXD
 github: https://github.com/CyrisXD
 mode: dark
 transition: 1s
-score: 70.9
+score: 44.2
 archetype:
 - Little Bit of Everything
 ---

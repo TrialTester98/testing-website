@@ -3,7 +3,7 @@ title: sriharikapu
 github: https://github.com/sriharikapu
 mode: light
 transition: 1s
-score: 69.3
+score: 65.6
 archetype:
 - Minimalistic
 ---

@@ -3,7 +3,7 @@ title: VikashPR
 github: https://github.com/VikashPR
 mode: dark
 transition: 1s
-score: 80.8
+score: 45.4
 archetype:
 - Code
 - Badges | Tags | Icons

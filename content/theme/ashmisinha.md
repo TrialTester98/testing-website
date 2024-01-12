@@ -3,7 +3,7 @@ title: ashmisinha
 github: https://github.com/ashmisinha
 mode: dark
 transition: 1s
-score: 80.3
+score: 66.8
 archetype:
 - GIF
 ---

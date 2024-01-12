@@ -3,7 +3,7 @@ title: filiptronicek
 github: https://github.com/filiptronicek
 mode: light
 transition: 1s
-score: 76.1
+score: 46.5
 archetype:
 - Descriptive
 ---

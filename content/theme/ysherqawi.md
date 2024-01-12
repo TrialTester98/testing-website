@@ -3,7 +3,7 @@ title: ysherqawi
 github: https://github.com/ysherqawi
 mode: light
 transition: 1s
-score: 72.7
+score: 38.1
 archetype:
 - Little Bit of Everything
 ---

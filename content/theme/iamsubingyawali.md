@@ -3,7 +3,7 @@ title: iamsubingyawali
 github: https://github.com/iamsubingyawali
 mode: dark
 transition: 1s
-score: 68.8
+score: 77.9
 archetype:
 - Minimalistic
 ---

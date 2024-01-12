@@ -3,7 +3,7 @@ title: chiragsamal
 github: https://github.com/chiragsamal
 mode: dark
 transition: 1s
-score: 67.2
+score: 84.6
 archetype:
 - Minimalistic
 ---

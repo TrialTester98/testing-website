@@ -3,7 +3,7 @@ title: warengonzaga
 github: https://github.com/warengonzaga
 mode: light
 transition: 1s
-score: 77.3
+score: 85.2
 archetype:
 - Little Bit of Everything
 ---

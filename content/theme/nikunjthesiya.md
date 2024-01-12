@@ -3,7 +3,7 @@ title: NikunjThesiya
 github: https://github.com/NikunjThesiya
 mode: dark
 transition: 1s
-score: 86.0
+score: 82.7
 archetype:
 - Cool Banner
 - Innovative

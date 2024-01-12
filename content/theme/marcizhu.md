@@ -3,7 +3,7 @@ title: marcizhu
 github: https://github.com/marcizhu
 mode: dark
 transition: 1s
-score: 86.0
+score: 48.2
 archetype:
 - Game
 ---

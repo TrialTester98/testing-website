@@ -3,7 +3,7 @@ title: ChungZH
 github: https://github.com/ChungZH
 mode: light
 transition: 1s
-score: 68.0
+score: 73.3
 archetype:
 - Minimalistic
 ---

@@ -3,7 +3,7 @@ title: BhagawatAdhikari
 github: https://github.com/BhagawatAdhikari
 mode: dark
 transition: 1s
-score: 70.1
+score: 65.4
 archetype:
 - Descriptive
 ---

@@ -3,7 +3,7 @@ title: mariache
 github: https://github.com/mariache
 mode: dark
 transition: 1s
-score: 79.1
+score: 53.6
 archetype:
 - Cool Banner
 -

@@ -3,7 +3,7 @@ title: AbhishekSinghDhadwal
 github: https://github.com/AbhishekSinghDhadwal
 mode: dark
 transition: 1s
-score: 65.1
+score: 62.2
 archetype:
 - Minimalistic
 ---

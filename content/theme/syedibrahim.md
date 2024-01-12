@@ -3,7 +3,7 @@ title: syedibrahim
 github: https://github.com/syedibrahim
 mode: dark
 transition: 1s
-score: 66.6
+score: 40.8
 archetype:
 - Minimalistic
 ---

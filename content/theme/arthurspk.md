@@ -3,7 +3,7 @@ title: arthurspk
 github: https://github.com/arthurspk
 mode: dark
 transition: 1s
-score: 66.3
+score: 61.6
 archetype:
 - Minimalistic
 ---

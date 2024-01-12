@@ -3,7 +3,7 @@ title: QuentinRiviere
 github: https://github.com/QuentinRiviere
 mode: dark
 transition: 1s
-score: 77.3
+score: 69.9
 archetype:
 - Code
 - GIF

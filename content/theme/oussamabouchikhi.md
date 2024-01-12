@@ -3,7 +3,7 @@ title: oussamabouchikhi
 github: https://github.com/oussamabouchikhi
 mode: dark
 transition: 1s
-score: 71.8
+score: 49.8
 archetype:
 - Little Bit of Everything
 ---

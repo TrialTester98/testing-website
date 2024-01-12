@@ -3,7 +3,7 @@ title: trinib
 github: https://github.com/trinib
 mode: dark
 transition: 1s
-score: 84.8
+score: 39.4
 archetype:
 - GIF
 - Little Bit of Everything

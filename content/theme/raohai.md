@@ -3,7 +3,7 @@ title: RaoHai
 github: https://github.com/RaoHai
 mode: dark
 transition: 1s
-score: 85.2
+score: 57.2
 archetype:
 - Github Actions
 ---

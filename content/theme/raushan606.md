@@ -3,7 +3,7 @@ title: raushan606
 github: https://github.com/raushan606
 mode: dark
 transition: 1s
-score: 70.0
+score: 52.1
 archetype:
 - Minimalistic
 ---

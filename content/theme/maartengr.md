@@ -3,7 +3,7 @@ title: MaartenGr
 github: https://github.com/MaartenGr
 mode: dark
 transition: 1s
-score: 84.2
+score: 81.3
 archetype:
 - Innovative
 - Editor’s Choice

@@ -3,7 +3,7 @@ title: rabarbra
 github: https://github.com/rabarbra
 mode: dark
 transition: 1s
-score: 79.6
+score: 55.7
 archetype:
 - Badges | Tags | Icons
 ---

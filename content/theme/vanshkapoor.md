@@ -3,7 +3,7 @@ title: vanshkapoor
 github: https://github.com/vanshkapoor
 mode: light
 transition: 1s
-score: 69.8
+score: 44.95
 archetype:
 - Minimalistic
 ---

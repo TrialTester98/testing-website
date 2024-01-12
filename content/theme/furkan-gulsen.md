@@ -3,7 +3,7 @@ title: Furkan-Gulsen
 github: https://github.com/Furkan-Gulsen
 mode: dark
 transition: 1s
-score: 69.0
+score: 53.2
 archetype:
 - Minimalistic
 ---

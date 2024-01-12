@@ -3,7 +3,7 @@ title: bkpecho
 github: https://github.com/bkpecho
 mode: dark
 transition: 1s
-score: 79.4
+score: 66.1
 archetype:
 - Animation
 - Badges | Tags | Icons

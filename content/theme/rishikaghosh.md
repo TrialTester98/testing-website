@@ -3,7 +3,7 @@ title: RishikaGhosh
 github: https://github.com/RishikaGhosh
 mode: dark
 transition: 1s
-score: 73.8
+score: 51.8
 archetype:
 - Badges | Tags | Icons
 ---

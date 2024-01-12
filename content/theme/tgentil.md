@@ -3,7 +3,7 @@ title: Tgentil
 github: https://github.com/Tgentil
 mode: dark
 transition: 1s
-score: 79.7
+score: 68.4
 archetype:
 - Little Bit of Everything
 ---

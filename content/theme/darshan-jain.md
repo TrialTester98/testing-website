@@ -3,7 +3,7 @@ title: darshan-jain
 github: https://github.com/darshan-jain
 mode: dark
 transition: 1s
-score: 67.4
+score: 70.3
 archetype:
 - Minimalistic
 ---

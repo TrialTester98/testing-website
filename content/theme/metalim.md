@@ -3,7 +3,7 @@ title: metalim
 github: https://github.com/metalim
 mode: light
 transition: 1s
-score: 84.6
+score: 58.9
 archetype:
 - Innovative
 ---

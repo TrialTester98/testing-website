@@ -3,7 +3,7 @@ title: supuna97
 github: https://github.com/supuna97
 mode: dark
 transition: 1s
-score: 60
+score: 46.7
 archetype:
 - Little Bit of Everything
 - Animation

@@ -3,7 +3,7 @@ title: LaughingRover
 github: https://github.com/LaughingRover
 mode: dark
 transition: 1s
-score: 86.5
+score: 69.2
 archetype:
 - Code
 - Innovative

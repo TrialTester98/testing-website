@@ -3,7 +3,7 @@ title: AlfinIndrawan
 github: https://github.com/AlfinIndrawan
 mode: dark
 transition: 1s
-score: 78.7
+score: 71.1
 archetype:
 - Little Bit of Everything
 ---

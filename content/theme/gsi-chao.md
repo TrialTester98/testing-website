@@ -3,7 +3,7 @@ title: gsi-chao
 github: https://github.com/gsi-chao
 mode: light
 transition: 1s
-score: 67.2
+score: 50.2
 archetype:
 - Minimalistic
 ---

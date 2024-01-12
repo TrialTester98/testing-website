@@ -3,7 +3,7 @@ title: CodexLiner
 github: https://github.com/CodexLiner
 mode: dark
 transition: 1s
-score: 75.7
+score: 44.4
 archetype:
 - Code
 - Animation
