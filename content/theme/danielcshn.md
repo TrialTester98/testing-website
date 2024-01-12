@@ -2,7 +2,7 @@
 title: danielcshn
 github: https://github.com/danielcshn
 mode: dark
-transition: 1s
+transition: 2.7s
 score: 98.5
 archetype:
 - Dynamic

@@ -2,7 +2,7 @@
 title: DenverCoder1
 github: https://github.com/DenverCoder1
 mode: dark
-transition: 1s
+transition: 4.3s
 score: 99.2
 archetype:
 - Github Actions

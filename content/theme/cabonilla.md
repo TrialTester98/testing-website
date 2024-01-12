@@ -2,7 +2,7 @@
 title: Cabonilla
 github: https://github.com/Cabonilla
 mode: dark
-transition: 1s
+transition: 2s
 score: 97.9
 archetype:
 - Dynamic

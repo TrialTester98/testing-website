@@ -2,7 +2,7 @@
 title: centrumek
 github: https://github.com/centrumek
 mode: dark
-transition: 1s
+transition: 1.4s
 score: 98.8
 archetype:
 - Innovative

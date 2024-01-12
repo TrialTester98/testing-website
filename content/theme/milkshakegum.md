@@ -2,7 +2,7 @@
 title: milkshakegum
 github: https://github.com/milkshakegum
 mode: dark
-transition: 1s
+transition: 3.4s
 score: 97.6
 archetype:
 - Code

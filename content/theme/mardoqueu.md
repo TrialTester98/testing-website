@@ -2,7 +2,7 @@
 title: Mardoqueu
 github: https://github.com/Mardoqueu
 mode: dark
-transition: 1s
+transition: 4.5s
 score: 97.2
 archetype:
 - GIF

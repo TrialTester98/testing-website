@@ -2,7 +2,7 @@
 title: RitamChakraborty
 github: https://github.com/RitamChakraborty
 mode: dark
-transition: 1s
+transition: 6s
 score: 97.3
 archetype:
 - Innovative
