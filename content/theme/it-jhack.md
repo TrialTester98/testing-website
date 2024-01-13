@@ -2,7 +2,7 @@
 title: it-jhack
 github: https://github.com/it-jhack
 mode: dark
-transition: 1s
+transition: 3s
 score: 96.5
 archetype:
 - GIF

@@ -2,7 +2,7 @@
 title: 2or4spaces
 github: https://github.com/2or4spaces
 mode: dark
-transition: 1s
+transition: 1.3s
 score: 87.2
 archetype:
 - Badges | Tags | Icons

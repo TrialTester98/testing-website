@@ -2,7 +2,7 @@
 title: SP-XD
 github: https://github.com/SP-XD
 mode: light
-transition: 1s
+transition: 1.8s
 score: 88.2
 archetype:
 - Code

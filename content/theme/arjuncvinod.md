@@ -2,7 +2,7 @@
 title: arjuncvinod
 github: https://github.com/arjuncvinod
 mode: dark
-transition: 1s
+transition: 3s
 score: 93.2
 archetype:
 - Cool Banner

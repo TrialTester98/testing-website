@@ -2,7 +2,7 @@
 title: vladimirlukyanov
 github: https://github.com/vladimirlukyanov
 mode: dark
-transition: 1s
+transition: 1.5s
 score: 95.6
 archetype:
 - Animation

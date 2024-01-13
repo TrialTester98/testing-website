@@ -14,12 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (defaultImagePath.endsWith('-dark.webp')) {
                 newSrc = defaultImagePath.replace('-dark.webp', '.webp');
+                themeScreenshot.setAttribute('srcset', isMoon ? newSrc : defaultImagePath);
             } else {
                 newSrc = defaultImagePath.replace('.webp', '-dark.webp');
+                themeScreenshot.setAttribute('srcset', isMoon ? defaultImagePath : newSrc);
             }
 
-            themeScreenshot.setAttribute('srcset', isMoon ? newSrc : defaultImagePath);
-
+            
             moonSunIcon.src = isMoon ? './images/moon.svg' : './images/day-sunny.svg';
             altText = isMoon ? 'Moon Icon' : 'Sun Icon';
             iconSize = isMoon ? '29' : '32';

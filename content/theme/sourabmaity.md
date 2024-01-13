@@ -2,7 +2,7 @@
 title: sourabmaity
 github: https://github.com/sourabmaity
 mode: light
-transition: 1s
+transition: 5.2s
 score: 88.7
 archetype:
 - Cool Banner

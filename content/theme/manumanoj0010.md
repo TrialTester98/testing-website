@@ -2,7 +2,7 @@
 title: manumanoj0010
 github: https://github.com/manumanoj0010
 mode: light
-transition: 1s
+transition: 3.2s
 score: 92.7
 archetype:
 - Github Actions

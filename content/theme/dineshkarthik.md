@@ -2,7 +2,7 @@
 title: Dineshkarthik
 github: https://github.com/Dineshkarthik
 mode: light
-transition: 1s
+transition: 2.2s
 score: 94.5
 archetype:
 - Cool Banner
